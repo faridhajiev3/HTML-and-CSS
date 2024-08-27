@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url("https://assets-v2.porsche.com/us/-/media/Project/PCOM/SharedSite/Banner-Rotation---Archive/Taycan/Taycan-Push/02---Taycan-Push.jpg?rev=a8ccc765c253409cb6e18fcca71ed5be&w=1299");
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    gap: 5px;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    background-color: #b4b3b3;
+    padding: 2px;
+}
+
+.words {
+    padding: 200px 0 86px 120px;
+    color: #fbfcff;
+
+}
+
+.words h1 {
+    font-weight: 400;
+    font-size: 6vw;
+    padding-right: 65%;
+    line-height: 1.4;
+}
+
+.words button {
+    transition: 0.3s;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+
+.words button:hover {
+    background-color: rgba(67, 67, 67, 0);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carts {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.cart {
+    background: url("https://radiant-sundae-eead59.netlify.app/assets/images/cardIMG.jpeg");
+    width: 28%;
+    height: 250px;
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cart:hover {
+    background-size: 110% 110%;
+
+}
+
+
+.models {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.model {
+    background: url("https://radiant-sundae-eead59.netlify.app/assets/images/911.jpeg");
+    width: 38%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+
+.model:hover {
+    background-size: 110% 110%;
+
+}
+
+.nine {
+    width: 15%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+.rear {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.from {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.build {
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.build:hover {
+    background-color: #f0ecec;
+}
+
+.all {
+    margin: 10px 0 30px 0;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    height: 50px;
+    border-radius: 10px;
+}
+
+.suddenly {
+    display: none;
+    width: 25px;
+}
+
+.porsche {
+    width: 15%;
+    fill: #FFFFFF;
+}
+
+@media only screen and (max-width: 800px) {
+    .porsche {
+        display: none;
+    }
+
+    .suddenly {
+        display: block;
+    }
+
+    .words {
+        padding-left: 0;
+    }
+
+    .words h1 {
+        font-size: 10vw;
+        padding: 0 0 20px;
+    }
+
+    .words button {
+        width: 100%;
+    }
+
+    .carts {
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .cart {
+        width: 100%;
+        margin: 20px 0;
+        height: 350px;
+    }
+
+    .models {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .model {
+        width: 100%;
+        /* background-size: cover; */
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .rear {
+        font-size: 1.8rem;
+    }
+
+    .from {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .build,
+    .all {
+        width: 100%;
+        font-size: 16px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+header {
+    /* height: 100vh; */
+    background: url("https://66b4b8cdde61d5fb5971c74b--bejewelled-twilight-bfca5e.netlify.app/img/headerbg.jpg") center / cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.words {
+    padding: 450px 0 100px 0;
+}
+
+.fa-book {
+    font-size: 40px;
+}
+
+.section1 {
+    background-color: #A1C927;
+}
+
+.section2 {
+    background-color: #FD634D;
+}
+
+.num h2,
+.des {
+    color: #fff;
+}
+
+.box {
+    background-color: #fff;
+}
+
+.img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
+/* .img1 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
+.box1 {
+    width: 100%;
+    height: 390px;
+}
+
+.minibox1 {
+    height: 380px;
+    background-color: #fff;
+}
+
+.miniboxs {
+    height: 380px;
+    background-color: #A1C927;
+} */

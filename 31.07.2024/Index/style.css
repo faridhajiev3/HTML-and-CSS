@@ -1,0 +1,247 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.row {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.nav img {
+    height: 1.6rem;
+    transition: height 0.3s ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav ul li:hover {
+    color: #ffc800;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.row2 .our {
+    font-size: 35px;
+}
+
+.row2 .nice {
+    font-size: 65px;
+    padding: 10px 0 40px 0;
+}
+
+.row2 button {
+    background-color: #ffc800;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.row2 button:hover {
+    background-color: #d8ab08;
+}
+
+/* main */
+.ser {
+    font-size: 32px;
+}
+
+.ces {
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+.services {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.basket {
+    display: flex;
+    font-size: 45px;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    background-color: #ffc800;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.e {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.word {
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d
+}
+
+.carts {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.btn {
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    .row2 .nice {
+        font-size: 50px;
+    }
+
+    .cart {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .word {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .btn {
+        display: flex;
+        color: #fff;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 3px;
+    }
+
+    .btn i {
+        font-size: 18px;
+    }
+
+    .btn button {
+        padding: 6px 14px;
+        background: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .row2 .nice {
+        font-size: 40px;
+    }
+
+    .row2 button {
+        padding: 12px 24px;
+    }
+
+    .basket {
+        width: 70px;
+        height: 70px;
+        font-size: 35px;
+    }
+
+    .word {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav img {
+        height: 1.4rem;
+    }
+
+    .row2 {
+        padding: 60px 0;
+    }
+
+    .row2 .our {
+        font-size: 25px;
+    }
+
+    .row2 .nice {
+        font-size: 30px;
+    }
+
+    .row2 button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .carts {
+        flex-direction: column;
+    }
+
+    .cart {
+        width: 100%;
+    }
+
+    .basket {
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .word {
+        width: 300px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background: url("https://dazzling-biscotti-04baad.netlify.app/assets/images/banner-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: relative;
+}
+
+.port {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.item {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.item li {
+    color: #fff;
+    font-size: 18px;
+}
+
+.sign {
+    background-color: #ee626b;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* .containers{
+    width: 85%;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.minibox h6 {
+    color: #fff;
+    font-size: 26px;
+}
+
+.minibox h2 {
+    color: #fff;
+    font-size: 50px;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.minibox p {
+    color: #fff;
+    line-height: 1.5;
+    padding: 0 0 40px 0;
+}
+
+.run {
+    padding: 20px 0;
+}
+
+.minibox input {
+    padding: 12px 120px 12px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.minibox button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.images img {
+    border-radius: 20px;
+}
+
+.jus {
+    position: absolute;
+    top: 600px;
+}
+
+.boks {
+    width: 300px;
+    padding: 40px 110px 10px 110px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    text-align: center;
+    gap: 20px;
+}
+
+.boks i {
+    font-size: 60px;
+    text-align: center;
+}
+
+.boks p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.alt {
+    background-color: #eeeeee;
+}
+
+.fa-heart {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee626b;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.special {
+    margin: 20px 0 !important;
+}
+
+.core {
+    padding: 0 0 0 0;
+}
+
+.fn {
+    position: relative;
+}
+
+.exp {
+    background-color: #ee626b;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50px;
+}
+
+.caps {
+    width: 13rem !important;
+
+}
+
+.action {
+    width: 235px;
+    background-color: #0071F8;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.action h5 {
+    margin: 0 0 10px 0 !important;
+    color: #fff;
+}
+
+.actionimg {
+    border-radius: 15px;
+    margin: -25px 0 0 0;
+}
+
+.mostly {
+    background-color: #F7F7F7;
+    padding: 70px;
+    /* width: 500px; */
+    border-radius: 30px;
+    position: absolute;
+    top: 90px;
+}
+
+.go {
+    font-size: 30px;
+    width: 300px;
+    font-weight: 900px;
+    padding: 20px 0 10px 0;
+}
+
+.go span {
+    color: #0071F8;
+}
+
+.dolor {
+    width: 400px;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.mostly button {
+    color: #fff;
+    border-radius: 15px;
+    background-color: #ee626b;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.ends {
+    position: relative;
+}
+
+.imagess {
+    text-align: center;
+}
+
+.imagess img {
+    border-radius: 20px;
+}
+
+.most {
+    background-color: #F7F7F7;
+    padding: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 120px;
+    right: 40px;
+}
+
+.most button {
+    color: #fff;
+    border-radius: 15px;
+    background-color: #ee626b;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+}

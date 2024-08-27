@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-image: linear-gradient(rgb(9, 148, 203), skyblue);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.cloud1,
+.cloud2,
+.cloud3 {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    animation: moveClouds linear infinite;
+}
+
+.cloud1 {
+    width: 70px;
+    height: 37px;
+    top: 20px;
+    animation-duration: 13s;
+
+}
+
+.cloud2 {
+    width: 85px;
+    height: 50px;
+    top: 80px;
+    animation-duration: 15s;
+}
+
+.cloud3 {
+    width: 125px;
+    height: 50px;
+    top: 120px;
+    animation-duration: 20s;
+}
+
+.sea {
+    background-image: linear-gradient(rgb(9, 148, 203), #064273);
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    /* bottom: -180px; */
+    animation-name: riseSea;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.ship {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    bottom: 180px;
+    /* animation-delay: 4s; */
+    animation: moveShip 8s linear infinite;
+}
+
+.ship img {
+    /* width: 300px; */
+    position: absolute;
+    bottom: -102px;
+    /* left: -300px; */
+    animation-delay: 2s;
+}
+
+.ticket {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(0);
+    animation: growButton 5s ease-out 5s forwards;
+    transform: translate(-50%, 50%) scale(0);
+}
+
+@keyframes moveClouds {
+    0% {
+        left: -100px;
+    }
+
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes moveShip {
+    0% {
+        left: -200px;
+    }
+
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes riseSea {
+    0% {
+        bottom: -180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+
+
+@keyframes growButton {
+    0% {
+        
+    }
+
+    100% {
+        transform: translate(-50%, 50%) scale(1);
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cloud1 {
+    margin-left: 40px;
+    width: 70px;
+    background-color: skyblue;
+    height: 37px;
+    background: url("../photo_2024-07-26_16-35-28.jpg") 0 0;
+}
+
+
+.cloud2 {
+    width: 85px;
+    height: 50px;
+    background: url("../photo_2024-07-26_16-35-28.jpg") -65px 0;
+}
+
+.cloud3 {
+    margin-left: 90px;
+    width: 125px;
+    height: 50px;
+    background: url("../photo_2024-07-26_16-35-28.jpg") 0 -50px;
+} */

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.log {
+    display: flex;
+    height: 100vh;
+}
+
+.big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.image-container {
+    width: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    /* height: 100vh; */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.inputs {
+    display: flex;
+    margin: 10px 0;
+}
+
+.inputs input {
+    padding: 0 40px;
+}
+
+.tired {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 20px 0;
+}
+
+.tired button {
+    border: none;
+    padding: 14px 34px;
+    background-color: blue;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 0 0 30px;
+}
+
+.words {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.face,
+.twit {
+    display: flex;
+    margin: 5px 0 20px 0;
+}
+
+.fa-user,
+.fa-facebook {
+    border: solid 1px gray;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.fa-facebook {
+    background-color: blue;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.border {
+    width: 240px;
+    height: 60px;
+    background-color: #3896f3;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

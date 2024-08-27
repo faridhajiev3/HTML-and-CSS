@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    background-color: cadetblue;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.cart {
+    width: 200px;
+    border: 1px solid #fff;
+    /* padding: 5px; */
+    background-color: #fff;
+    /* height: 340px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card {
+    background-color: chocolate;
+    height: 150px;
+    clip-path: circle(104.0% at 11% 11%);
+
+}
+
+.code {
+    text-align: center;
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.btn {
+    margin: 60px 0 20px 0;
+    background-color: chocolate;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card2 {
+    background-color: #de35bf;
+    height: 150px;
+    clip-path: circle(104.0% at 11% 11%);
+}
+
+.btn2 {
+    margin: 60px 0 20px 0;
+    background-color: #de35bf;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card3 {
+    background-color: #1487e5;
+    height: 150px;
+    clip-path: circle(104.0% at 11% 11%);
+}
+
+.btn3 {
+    margin: 60px 0 20px 0;
+    background-color: #1487e5;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card4 {
+    background-color: #26e86d;
+    height: 150px;
+    clip-path: circle(104.0% at 11% 11%);
+}
+
+.btn4 {
+    margin: 60px 0 20px 0;
+    background-color: #26e86d;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+}

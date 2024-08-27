@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #212529;
+    padding: 15px 0;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.users {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    color: #212529;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.port h2 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.port p {
+    color: #80d0c7;
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.port input {
+    width: 800px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+}
+
+.intel {
+    background-color: #80d0c7;
+    padding: 40px 0;
+}
+
+.box {
+    width: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.box p {
+    font-size: 22px;
+    line-height: 1.4;
+    width: 300px;
+}
+
+.box img {
+    width: 80%;
+}
+
+.minibox {
+    width: 650px;
+    background: url("https://66bc69cf450da3501165c67b--guileless-chaja-636b88.netlify.app/images/businesswoman-using-tablet-analysis.jpg");
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.minibox p {
+    font-size: 22px;
+    line-height: 1.4;
+    width: 500px;
+    padding: 10px 0 20px 0;
+}
+
+.minibox button {
+    padding: 12px 26px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #80d0c7;
+    border: none;
+}
+
+.browse {
+    text-align: center;
+    font-size: 40px;
+}
+
+.item-link {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.run {
+    background-color: #fff;
+    width: 420px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+.run p {
+    font-size: 22px;
+}
+
+.help {
+    width: 100%;
+}
+.person{
+    width: 75%;
+}
+.core{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.core p{
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+}
+.core h3{
+    padding: 10px 0;
+}

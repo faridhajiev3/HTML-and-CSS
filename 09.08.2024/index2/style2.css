@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.port {
+    background-color: #F2F8FB;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: "K2D", sans-serif;
+}
+
+.first h2 {
+    font-size: 36px;
+}
+
+.first p {
+    width: 530px;
+    text-align: center;
+    color: #888888;
+    line-height: 1.4;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.carts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cart {
+    border: 1px solid fff;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+
+.countain {
+    width: 100%;
+}
+
+.card {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.pos {
+    position: absolute;
+    top: 50px;
+    left: 33%;
+}
+
+.japan {
+    padding: 10px 0;
+}
+
+.des {
+    width: 350px;
+    padding: 5px 0 15px 0;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 24px;
+    font-family: "K2D";
+    color: #FF7A58;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    background-color: #ed4a28;
+    color: #FFFFFF;
+    padding: 12px 45px;
+    margin: 50px auto 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.now {
+    background-color: #ed4a28;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    margin: 50px auto 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.build {
+    width: 80px;
+    height: 80px;
+    border: #ed4a28 3px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ed4a28;
+    padding: 5px;
+    transition: 0.6s;
+    /* color: #fff; */
+}
+
+.build:hover {
+    color: #fff;
+}
+.num{
+    /* background-color: #fff; */
+    width: 75px;
+    height: 75px;
+    transition: 0.7s;
+    border-radius: 50%;
+    position: absolute;
+}
+.num:hover{
+    background-color: #ed4a28;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.icon h2 {
+    font-size: 24px;
+    font-family: "K2D", sans-serif;
+}
+
+.icon p {
+    width: 350px;
+    font-size: 16px;
+    color: #888888;
+    font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+header{
+    background-color: #FF4F08;
+}
+.navbar{
+    background-color: #FF4F08;
+    color: #fff;
+}
+.section-first{
+    background-color: #F1F3F7;
+}
+.port{
+    width: 100%;
+}
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+.fa-car{
+    font-size: 40px;
+    color: #FF4F08;
+}
+
+.first-img{
+    padding: 0;
+    margin: 0;
+}
+.note{
+    padding-top: 10px;
+    margin: 0;
+}
+.price{
+    padding: 0;
+}
+.des{
+    padding: 0 ;
+    margin: 0 ;
+}
+.all{
+    margin: 0 60px 0 0;
+}
